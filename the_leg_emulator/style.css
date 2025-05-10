@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    color: lime;
+    font-family: monospace;
+}
+textarea, pre {
+    background-color: black;
+    color: lime;
+    border: 1px solid lime;
+}
+button {
+    background-color: #0f0;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+}

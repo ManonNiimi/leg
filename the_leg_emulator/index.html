@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The LEG Emulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>THE LEG - Local Emulator</h1>
+    <textarea id="asmcode" rows="10" cols="80">
+; Example:
+mov r0, 0x8000
+lsl r0, 0x8
+ldr r1, r0
+    </textarea><br>
+    <button onclick="runCode()">RUN CODE</button>
+    <pre id="output"></pre>
+    <script src="emulator.js"></script>
+</body>
+</html>
